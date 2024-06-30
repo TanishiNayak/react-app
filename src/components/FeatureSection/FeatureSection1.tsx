@@ -125,6 +125,12 @@ a:hover {
             <p>Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.</p>
             <a href="/">Learn more →</a>
           </div>
+          <div className={styles.card}>
+            <div className={styles.icon}>🗑</div>
+            <h2>Spam report</h2>
+            <p>Et quod quaerat dolorem quaerat architecto aliquam accusantium. Ex adipisci et doloremque autem quia quam. Quis eos molestiae at iure impedit.</p>
+            <a href="/">Learn more →</a>
+          </div>
         </div>
       </div>
       <div className={styles.codeToggle}>

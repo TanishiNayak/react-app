@@ -327,81 +327,40 @@ export default AboutPage1;
     <div className={styles.aboutPage1Container}>
       <div className={styles.pageContent}>
         <section className={styles.heroSection}>
-          <img src="./src/assets/panorama.jpg"/>
+          <img src="https://via.placeholder.com/1000x400" />
+          {/* <img src="../../assets/panorama.jpg" /> */}
         </section>
-        <section className={styles.carouselSection}>
-          <Carousel showArrows={true} autoPlay={true} infiniteLoop={true}>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Carousel 1" />
-              <p className="legend">Legend 1</p>
-            </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Carousel 2" />
-              <p className="legend">Legend 2</p>
-            </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Carousel 3" />
-              <p className="legend">Legend 3</p>
-            </div>
-          </Carousel>
-        </section>
+        
         <section className={styles.missionSection}>
-          <h2>Our Mission</h2>
-          <p>To deliver the best products and services to our customers and make a positive impact on the community.</p>
-          <img src="https://via.placeholder.com/1200x600" alt="Mission Image" className={styles.largeImage} />
+        <div className={styles.missionInfo}>
+          <header>Contact Us</header>
+          <h2>Help Opening a New Account</h2>
+          <h4>1-866-224-5708</h4>
+          <h4>Monday - Friday, 8:30 am - 9:30 pm ET</h4>
+          <h4>Locate a Financial Advisor</h4>
+
+          <h2>Online Services & Access Online Support</h2>
+            <h4>1-877-879-2495</h4>
+          <h4>Monday - Friday, 8:00 am - midnight ET</h4>
+
+          <h2>Help With an Existing Account</h2>
+          <h4>Contact your Financial Advisor or call us at the number below:</h4>
+          <h4>1-866-281-7436</h4>
+          <h4>Monday - Friday, 8:00 am - midnight ET</h4>
+
+          <h2>Calling Outside the US</h2>
+          <h4>1-877-879-2495</h4>
+          <h4>Monday - Friday, 8:00 am - midnight ET</h4>
+          <h4>Office Locations</h4>
+        </div>
         </section>
-        <section className={styles.teamSection}>
-          <h2>Meet Our Team</h2>
-          <div className={styles.teamMembers}>
-            <div className={styles.teamMember}>
-              <img src="https://via.placeholder.com/150" alt="Team Member 1" className={styles.teamImage} />
-              <h3>John Doe</h3>
-              <p>CEO</p>
-            </div>
-            <div className={styles.teamMember}>
-              <img src="https://via.placeholder.com/150" alt="Team Member 2" className={styles.teamImage} />
-              <h3>Jane Smith</h3>
-              <p>CTO</p>
-            </div>
-            <div className={styles.teamMember}>
-              <img src="https://via.placeholder.com/150" alt="Team Member 3" className={styles.teamImage} />
-              <h3>Mike Johnson</h3>
-              <p>CFO</p>
-            </div>
-          </div>
-        </section>
-        <section className={styles.valuesSection}>
-          <h2>Our Values</h2>
-          <p>We believe in integrity, innovation, and customer satisfaction.</p>
-          <div className={styles.valueBoxes}>
-            <div className={styles.valueBox}>
-              <h3>Integrity</h3>
-              <p>We adhere to the highest standards of integrity and ethical behavior.</p>
-            </div>
-            <div className={styles.valueBox}>
-              <h3>Innovation</h3>
-              <p>We strive to be industry leaders through innovation and excellence.</p>
-            </div>
-            <div className={styles.valueBox}>
-              <h3>Customer Satisfaction</h3>
-              <p>We are committed to providing the best customer experience.</p>
-            </div>
-          </div>
-        </section>
-        <section className={styles.historySection}>
-          <h2>Our History</h2>
-          <p>We have been delivering exceptional services for over 50 years. Our journey has been marked by continuous growth and unwavering commitment to our values.</p>
-          <img src="https://via.placeholder.com/1200x600" alt="History Image" className={styles.largeImage} />
-        </section>
-        <section className={styles.contactSection}>
-          <h2>Contact Us</h2>
-          <p>If you have any questions or would like to learn more about our company, feel free to reach out to us.</p>
-          <div className={styles.contactDetails}>
-            <p>Email: contact@company.com</p>
-            <p>Phone: (123) 456-7890</p>
-            <p>Address: 123 Main St, Anytown, USA</p>
-          </div>
-        </section>
+
+        <div className={styles.content}>
+          <h1>Data to enrich your online business</h1>
+          <p>Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua.</p>
+          <button className={styles.primaryButton}>Get started</button>
+          <button className={styles.secondaryButton}>Learn more</button>
+        </div>
       </div>
       <div className={styles.toggleContainer}>
         <button

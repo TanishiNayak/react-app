@@ -1,6 +1,7 @@
 .aboutPage1Container {
     padding: 2rem;
-    text-align: center;
+    margin: 2rem 5rem;
+    background-color: #eaeaea;
   }
   
   .pageContent {
@@ -8,9 +9,10 @@
   }
   
   .heroSection {
-    background-color: #f0f8ff;
-    padding: 2rem;
-    border-radius: 8px;
+    margin:0;
+    width: 100%;
+    
+    /* background-image: url('../src/assets/panorama.jpg'); */
   }
   
   .heroSection h1 {
@@ -30,16 +32,21 @@
   }
   
   .missionSection {
-    background-color: #fff8dc;
     padding: 2rem;
     margin: 2rem 0;
-    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    background-color: #ffffff;
+  }
+
+  .missionInfo header{
+    font-size: 2rem;
+  }
+
+  .missionInfo h2{
+    text-align: left;
   }
   
-  .missionSection h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-  }
   
   .missionSection p {
     font-size: 1.2rem;
@@ -52,6 +59,25 @@
     border-radius: 8px;
   }
   
+
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    color: #fff;
+    background-color: ;
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .content p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+
   .teamSection {
     background-color: #e6e6fa;
     padding: 2rem;
