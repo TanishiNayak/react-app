@@ -1,6 +1,6 @@
 .aboutPage2Container {
     padding: 2rem;
-    text-align: center;
+    text-align: left;
   }
   
   .pageContent {
@@ -27,6 +27,15 @@
   
   .carouselSection {
     margin: 2rem 0;
+    text-align: left;
+  }
+
+  .carouseltext h3{
+    text-align: left;
+  }
+
+  .carouseltext p{
+    text-align: left;
   }
   
   .valuesSection {

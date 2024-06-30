@@ -275,17 +275,22 @@ export default AboutPage2;
         </section>
         <section className={styles.carouselSection}>
           <Carousel showArrows={true} autoPlay={true} infiniteLoop={true}>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Team Carousel 1" />
-              <p className="legend">Team Member 1</p>
+            <div className = {styles.carouseltext}>
+              <h3>Who We Are</h3>
+              <p>Wells Fargo Stories</p>
+              <p>Explore our stories of how we're helping customers succeed and communities thrive. Learn More</p>
             </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Team Carousel 2" />
-              <p className="legend">Team Member 2</p>
+            <div className = {styles.carouseltext}>
+              
+            <h3>Corporate Responsibility</h3>
+              <p>Learn about our Corporate Responsibility activities</p>
+              <p>We're helping to create long-term economic growth and improved quality of life for everyone in our communities. Learn More</p>
             </div>
-            <div>
-              <img src="https://via.placeholder.com/800x400" alt="Team Carousel 3" />
-              <p className="legend">Team Member 3</p>
+            <div className = {styles.carouseltext}>
+              
+            <h3>Corporate Responsibility</h3>
+              <p>Learn about where we give</p>
+              <p>We're building stronger communities by focusing on housing affordability, small business growth, financial health and sustainability. Learn More</p>
             </div>
           </Carousel>
         </section>
