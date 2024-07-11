@@ -7,6 +7,7 @@ const FAQSection: React.FC = () => {
   return (
     <div className={styles.FAQSection}>
       {/* Add Hero Section content here */}
+      <h1>ho</h1>
     </div>
   );
 };

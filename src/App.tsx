@@ -42,6 +42,7 @@ import ContactPage from './components/ContactPage/ContactPage';
 //import HeroSection3 from './components/HeroSection/HeroSection3';
 import Template1 from './pages/Examples/Template1/Template1';
 import { AuthProvider } from './context/AuthContext';
+import CheckboxTree from './components/Checkbox/CheckboxTree';
 
 const App: React.FC = () => {
   return (
@@ -51,6 +52,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/components" element={<Components />} />
+          <Route path="/checkbox" element={<CheckboxTree />} />
           <Route path="/utilities" element={<Utilities />} />
           <Route path="/documentation" element={<Documentation />} />
           <Route path="/examples" element={<Examples />} />

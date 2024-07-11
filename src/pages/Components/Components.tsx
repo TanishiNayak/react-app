@@ -42,6 +42,7 @@ import SearchForm from '../../components/SearchForm/SearchForm';
 // Importing UI Elements
 import Button from '../../components/Button/Button';
 import CardSection from '../../components/CardSection/CardSection';
+import CheckboxTree from '../../components/Checkbox/CheckboxTree';
 /*import Modal from '../../components/Modal/Modal';
 import Tab from '../../components/Tab/Tab';
 import Accordion from '../../components/Accordion/Accordion';
@@ -76,7 +77,7 @@ import Chart from '../../components/Chart/Chart';
 // import Statistic from '../../components/Statistic/Statistic';
 
 // Importing Utility Components
-import Divider from '../../components/Divider/Divider';
+import Accordion from '../../components/Accordion/Accordion';
 // import Avatar from '../../components/Avatar/Avatar';
 // import Tag from '../../components/Tag/Tag';
 // import Rating from '../../components/Rating/Rating';
@@ -126,10 +127,10 @@ const Components: React.FC = () => {
   const uiElements = [
     { name: 'Button', category: 'Button', count: 8, component: Button },
     { name: 'Card Section', category: 'Card Section', count: 12, component: CardSection },
+    { name: 'Checkbox', category: 'Checkbox', count: 5, component: CheckboxTree },
     /*{ name: 'Modal', category: 'Modal', count: 5, component: Modal },
     { name: 'Tab', category: 'Tab', count: 4, component: Tab },
     { name: 'Accordion', category: 'Accordion', count: 6, component: Accordion },
-    { name: 'Tooltip', category: 'Tooltip', count: 5, component: Tooltip },
     { name: 'Dropdown', category: 'Dropdown', count: 7, component: Dropdown },
     { name: 'Alert', category: 'Alert', count: 4, component: Alert },
     { name: 'Badge', category: 'Badge', count: 3, component: Badge },*/
@@ -155,7 +156,7 @@ const Components: React.FC = () => {
   ];
 
   const utility = [
-    { name: 'Divider', category: 'Divider', count: 3, component: Divider },
+    { name: 'Accordion', category: 'Accordion', count: 3, component: Accordion },
   ];
 
   const filteredComponents = (section: { name: string, category: string, count: number, component: React.FC }[]) =>
